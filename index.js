@@ -8,14 +8,14 @@ const app = express();
 // 中间件
 app.use(cors());
 app.use(express.json());
-app.use(express.static("build"));
+app.use(express.static("dist"));
 // app.use(requestLogger);
 app.use(morgan("tiny"));
 
 let notes = [
   {
     id: 1,
-    content: "1HTML is easy",
+    content: "666HTML is easy",
     date: "2022-05-30T17:30:31.098Z",
     important: true,
   },
