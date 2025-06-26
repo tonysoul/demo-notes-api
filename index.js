@@ -8,6 +8,7 @@ const app = express();
 // 中间件
 app.use(cors());
 app.use(express.json());
+app.use(express.static("build"));
 // app.use(requestLogger);
 app.use(morgan("tiny"));
 
