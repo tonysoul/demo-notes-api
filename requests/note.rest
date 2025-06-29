@@ -2,7 +2,7 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "AMD",
+  "content": "AMD122",
   "important": false
 }
 
@@ -11,17 +11,18 @@ GET http://localhost:3001/api/notes
 
 
 ###
-GET http://localhost:3001/api/notes/6860d7077a64df56d8e35167
+GET http://localhost:3001/api/notes/6860e09b477a5cc0ebf5231e
 
 
 ###
-PUT http://localhost:3001/api/notes/6860d7077a64df56d8e35167
+PUT http://localhost:3001/api/notes/6860e09b477a5cc0ebf5231e
 Content-Type: application/json
 
 {
+  "content": "AMD122",
   "important": true
 }
 
 
 ###
-DELETE http://localhost:3001/api/notes/6860d7077a64df56d8e35167
+DELETE http://localhost:3001/api/notes/6860e09b477a5cc0ebf5231e

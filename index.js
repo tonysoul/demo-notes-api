@@ -55,9 +55,7 @@ app.put("/api/notes/:id", (req, res, next) => {
   Note.findByIdAndUpdate(
     req.params.id,
     {
-      content: "",
-      important: "",
-      ...req.body,
+      important: req.body.important,
     },
     { new: true, runValidators: true }
   )
