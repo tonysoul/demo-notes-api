@@ -53,7 +53,7 @@ app.get("/api/notes/:id", (req, res, next) => {
 
 app.put("/api/notes/:id", (req, res, next) => {
   Note.findByIdAndUpdate(
-    req.params,
+    req.params.id,
     {
       content: "",
       important: "",

@@ -1,0 +1,27 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "AMD",
+  "important": false
+}
+
+###
+GET http://localhost:3001/api/notes
+
+
+###
+GET http://localhost:3001/api/notes/6860d7077a64df56d8e35167
+
+
+###
+PUT http://localhost:3001/api/notes/6860d7077a64df56d8e35167
+Content-Type: application/json
+
+{
+  "important": true
+}
+
+
+###
+DELETE http://localhost:3001/api/notes/6860d7077a64df56d8e35167
