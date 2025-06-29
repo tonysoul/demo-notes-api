@@ -2,7 +2,5 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "JavaScript and TypeScript",
-  "date": "2024-05-30T17:30:31.098Z",
-  "important": false
+  "content": "how a u"
 }
